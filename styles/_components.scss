@@ -1,0 +1,55 @@
+//Fonts
+h1 {
+    font-size: $primary-heading;
+    text-decoration: $underline;
+  }
+  h2 {
+    font-size: $secondary-heading;
+  }
+  h5 {
+    font-size: $alternate-heading;
+  }
+  
+  h1,
+  h2,
+  h5 {
+    font-weight: $bold-font;
+    line-height: $line-height-secondary;
+  }
+  p,
+  li,
+  input {
+    font-size: $standard-font;
+    font-weight: $light-font;
+    line-height: $line-height-secondary;
+  }
+  input {
+    font-size: $small-font;
+  }
+  //Buttons
+  button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 9px 12px 17px 3px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 9px 12px 17px 3px rgba(0,0,0,0.26);
+    -moz-box-shadow: 9px 12px 17px 3px rgba(0,0,0,0.26);
+  }
+  .submit-btn {
+    background-color: $secondary-color;
+    color: $add-btn-color;
+  }
+  .delete-btn {
+    background-color: $delete-btn-color;
+    color: $add-btn-color;
+    &:hover {
+      background-color: #cb2d39;
+    }
+  }
+  .submit-btn,
+  .delete-btn {
+    font-family: $font-stack;
+  }
+  
+  

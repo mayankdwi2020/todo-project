@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Todo List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <main class="container txt-center">
+      <header>
+        <h1>Your Todo List</h1>
+        <h2>How does it work?</h2>
+        <p class="mx-wd-sm">
+          Add your todo list items in the input box below, click "Add Todo", the same
+          will be added to "Your todo items" list at the bottom. If you wish to
+          remove an item from the list, click "Delete" on the right side of the todo
+          list item.
+        </p>
+        <section class="add-todos">
+            <form action="">
+              <input type="text" data-input placeholder="Enter Your Todo" />
+              <button type="submit" data-submit class="submit-btn">Add Todo</button>
+            </form>
+          </section>
+      </header>
+      
+      <section class="show-todos">
+        <h2>Your todo items</h2>
+        <ul id="todo-items" class="mx-wd-md"></ul>
+      </section>
+      <footer>
+          <h5>Made with &#10084;&#65039; by Mayank</h5>
+      </footer>
+    </main>
+    <script defer src="actions.js"></script>
+  </body>
+</html>

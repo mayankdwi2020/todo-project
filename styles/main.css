@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 1080px;
+  margin: auto;
+  font-family: "Nunito Sans", sans-serif;
+  max-height: 80vh;
+  overflow: scroll;
+  padding: 10px 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .container h1 {
+    font-size: 32px;
+  }
+  .container h2 {
+    font-size: 26px;
+  }
+  .container h5 {
+    font-size: 20px;
+  }
+  .container p,
+  .container li {
+    font-size: 16px;
+  }
+}
+
+header {
+  margin: auto;
+}
+
+header p {
+  margin: auto auto 20px auto;
+}
+
+header input {
+  width: 40%;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+header input::-webkit-input-placeholder {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+}
+
+header input:-ms-input-placeholder {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+}
+
+header input::-ms-input-placeholder {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+}
+
+header input::placeholder {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+}
+
+.dp-fx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jc-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.mx-wd-sm {
+  max-width: 640px;
+}
+
+.mx-wd-md {
+  max-width: 800px;
+}
+
+.show-todos h2 {
+  text-decoration: underline;
+}
+
+.show-todos #todo-items {
+  margin: auto;
+}
+
+.show-todos #todo-items li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 10px;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #457B9D;
+  color: #F1FAEE;
+}
+
+h1 {
+  font-size: 52px;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h5 {
+  font-size: 32px;
+}
+
+h1,
+h2,
+h5 {
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+p,
+li,
+input {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+input {
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 9px 12px 17px 3px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 9px 12px 17px 3px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 9px 12px 17px 3px rgba(0, 0, 0, 0.26);
+}
+
+.submit-btn {
+  background-color: #457B9D;
+  color: #F1FAEE;
+}
+
+.delete-btn {
+  background-color: #E63946;
+  color: #F1FAEE;
+}
+
+.delete-btn:hover {
+  background-color: #cb2d39;
+}
+
+.submit-btn,
+.delete-btn {
+  font-family: "Nunito Sans", sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
